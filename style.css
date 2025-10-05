@@ -1,4 +1,3 @@
-/* Elemen 6 & 8: Pengaturan Latar, Warna Teks, dan Font */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -10,7 +9,6 @@ body {
     margin: 0;
 }
 
-/* Elemen 7: Perataan Konten (Align) */
 .container {
     text-align: center;
     background-color: #ffffff;
@@ -24,7 +22,7 @@ body {
 .profile-picture {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    border-radius: 50%;
     object-fit: cover;
     border: 5px solid #ddd;
     margin-bottom: 20px;
@@ -64,7 +62,6 @@ hr {
     margin: 30px 0;
 }
 
-/* Styling untuk Tabel */
 table {
     width: 100%;
     border-collapse: collapse;
