@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web - Rizky Saputra Al Amir</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="Eka.png" alt="Foto Profil Rizky" class="profile-picture">
+
+        <h1>Rizky Saputra Al Amir</h1>
+        <p> 102022430003 / Fakultas Rekayasa Industri / S1 Sistem Informasi</p>
+
+        <div class="social-links">
+            <a href="https://twitter.com/ekasihaniaku" target="_blank">X (Twitter)</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="https://instagram.com/3ekainatrenchcoat" target="_blank">Instagram</a>
+        </div>
+
+        <hr>
+
+        <h2>Mata Kuliah Relevan</h2>
+        <table>
+            <tr>
+                <th>Universitas (S1)</th>
+                <th>SMK</th>
+            </tr>
+            <tr>
+                <td>Project Management</td>
+                <td>Software Development</td>
+            </tr>
+            <tr>
+                <td>Analysis and Design of Information Systems</td>
+                <td>Database</td>
+            </tr>
+            <tr>
+                <td>Entrepreneurship</td>
+                <td>Internship</td>
+            </tr>
+             <tr>
+                <td></td>
+                <td>Entrepreneurship</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            <p>Waktu Sekarang: <span id="datetime"></span></p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript untuk menampilkan tanggal dan waktu saat ini
+        document.getElementById('datetime').textContent = new Date().toLocaleString('id-ID', {
+            dateStyle: 'full',
+            timeStyle: 'long'
+        });
+    </script>
+
+</body>
+</html>
